@@ -1,3 +1,4 @@
+
 # nextgenapi
 
 A robust, high-performance .NET API featuring advanced authentication and secure services.
@@ -62,8 +63,67 @@ A robust, high-performance .NET API featuring advanced authentication and secure
 
 #### Installation
 
-1. **Clone the Repository:**
-
+1. **Clone the Repository:**  
    ```bash
    git clone https://github.com/regvedpande/nextgenapi.git
    cd nextgenapi
+   ```
+
+2. **Configure the Database Connection:**  
+   ```json
+   "ConnectionStrings": {
+     "DefaultConnection": "Server=localhost;Database=bankingsystem;User Id=postgres;Password=YOUR_PASSWORD;"
+   }
+   ```
+   Update the `appsettings.json` file with your PostgreSQL details as shown above.
+
+3. **Restore the Project Dependencies:**  
+   ```bash
+   dotnet restore
+   ```
+
+4. **Build the Project:**  
+   ```bash
+   dotnet build
+   ```
+
+5. **Run Database Migrations (if applicable):**  
+   ```bash
+   dotnet ef database update
+   ```
+
+6. **Run the API Locally:**  
+   ```bash
+   dotnet run
+   ```  
+   The API will be available at `http://localhost:8080`.
+
+---
+
+## Deployment
+
+[To be added based on your deployment setup]
+
+---
+
+## API Documentation
+
+[To be added based on your API endpoints]
+
+---
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact
+
+For inquiries, reach out to [regregd@outlook.com](mailto:your-regregd@outlook.com).
