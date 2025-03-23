@@ -37,7 +37,7 @@ A robust, high-performance .NET API featuring advanced authentication and secure
 
 ### Tech Stack
 - **Backend:** .NET 8, C#
-- **Data Access:** Entity Framework Core, PostgreSQL
+- **Data Access:** Entity Framework Core, SQL Server
 - **Security:** ASP.NET Core, JWT Authentication
 - **Deployment:** CI/CD pipelines via GitHub Actions or other cloud platforms
 - **Tools:** Visual Studio, GitHub, Render/Azure
@@ -58,7 +58,7 @@ A robust, high-performance .NET API featuring advanced authentication and secure
 
 #### Prerequisites
 - [.NET 8 SDK](https://dotnet.microsoft.com/download)
-- [PostgreSQL](https://www.postgresql.org/download/)
+- [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (or SQL Server Express for local development)
 - Git
 
 #### Installation
