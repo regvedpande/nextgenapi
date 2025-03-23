@@ -29,7 +29,7 @@ A robust, high-performance .NET API featuring advanced authentication and secure
 - **Advanced Authentication:**  
   Implements robust, stateless JWT-based authentication to protect API endpoints and ensure secure access.
 - **Robust Data Management:**  
-  Utilizes Entity Framework Core for efficient ORM-based data access with PostgreSQL as the scalable database backend.
+  Utilizes Entity Framework Core for efficient ORM-based data access with SQL Server as the scalable database backend.
 - **High Performance:**  
   Built on .NET 8 to take advantage of the latest runtime improvements, delivering low latency and high throughput.
 - **Comprehensive Logging & Monitoring:**  
