@@ -72,7 +72,7 @@ A robust, high-performance .NET API featuring advanced authentication and secure
 2. **Configure the Database Connection:**  
    ```json
    "ConnectionStrings": {
-     "DefaultConnection": "Server=;Database=;User Id=postgres;Password=YOUR_PASSWORD;"
+     "DefaultConnection": "Server=;Database=;User Id=;Password=YOUR_PASSWORD;"
    }
    ```
    Update the `appsettings.json` file with your PostgreSQL details as shown above.
