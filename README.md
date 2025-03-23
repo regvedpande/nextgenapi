@@ -75,7 +75,7 @@ A robust, high-performance .NET API featuring advanced authentication and secure
      "DefaultConnection": "Server=;Database=;User Id=;Password=YOUR_PASSWORD;"
    }
    ```
-   Update the `appsettings.json` file with your PostgreSQL details as shown above.
+   Update the `appsettings.json` file with your SQL Server details as shown above.
 
 3. **Restore the Project Dependencies:**  
    ```bash
